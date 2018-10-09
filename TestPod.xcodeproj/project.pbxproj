@@ -15,6 +15,7 @@
 		C2C02D23216CA0F400EF8A63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C02D22216CA0F400EF8A63 /* main.m */; };
 		C2C02D2D216CA0F400EF8A63 /* TestPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C02D2C216CA0F400EF8A63 /* TestPodTests.m */; };
 		C2C02D38216CA0F400EF8A63 /* TestPodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C02D37216CA0F400EF8A63 /* TestPodUITests.m */; };
+		C2C02D4B216CA29000EF8A63 /* UIView+FJRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C02D49216CA29000EF8A63 /* UIView+FJRExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C2C02D33216CA0F400EF8A63 /* TestPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C02D37216CA0F400EF8A63 /* TestPodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPodUITests.m; sourceTree = "<group>"; };
 		C2C02D39216CA0F400EF8A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C02D49216CA29000EF8A63 /* UIView+FJRExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FJRExtension.m"; sourceTree = "<group>"; };
+		C2C02D4A216CA29000EF8A63 /* UIView+FJRExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FJRExtension.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		C2C02D07216CA0F300EF8A63 = {
 			isa = PBXGroup;
 			children = (
+				C2C02D45216CA10600EF8A63 /* Files */,
 				C2C02D12216CA0F300EF8A63 /* TestPod */,
 				C2C02D2B216CA0F400EF8A63 /* TestPodTests */,
 				C2C02D36216CA0F400EF8A63 /* TestPodUITests */,
@@ -130,6 +134,15 @@
 				C2C02D39216CA0F400EF8A63 /* Info.plist */,
 			);
 			path = TestPodUITests;
+			sourceTree = "<group>";
+		};
+		C2C02D45216CA10600EF8A63 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2C02D4A216CA29000EF8A63 /* UIView+FJRExtension.h */,
+				C2C02D49216CA29000EF8A63 /* UIView+FJRExtension.m */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 				C2C02D18216CA0F300EF8A63 /* ViewController.m in Sources */,
 				C2C02D23216CA0F400EF8A63 /* main.m in Sources */,
 				C2C02D15216CA0F300EF8A63 /* AppDelegate.m in Sources */,
+				C2C02D4B216CA29000EF8A63 /* UIView+FJRExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNBFXR72C9;
 				INFOPLIST_FILE = TestPod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNBFXR72C9;
 				INFOPLIST_FILE = TestPod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
